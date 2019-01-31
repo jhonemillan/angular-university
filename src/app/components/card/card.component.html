@@ -1,0 +1,22 @@
+<div class="courses">
+
+  <div class="course-card">
+
+      <div class="course-title">
+          {{card.description}}
+      </div>
+      <img width="300" alt="Angular Logo"
+           
+      [src]="card.iconUrl">
+
+      <div class="course-description">
+          {{card.longDescription}}
+      </div>
+
+      <button (click)="LocalSelectCourse()">
+        More Details
+      </button>
+
+  </div>
+
+</div>
